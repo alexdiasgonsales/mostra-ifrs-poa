@@ -48,27 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost'; //'mysql:host=localhost'; //localhost 
-
-//****** localhost *********
-$db['default']['username'] = 'mostratec';
-$db['default']['password'] = 'mostratec';
-$db['default']['database'] = 'mostratec2015';
-
-//aula.inf.poa (URL amigável não funciona)
-//$db['default']['username'] = 'mostratec';
-//$db['default']['password'] = 'fp87694fbr';
-//$db['default']['database'] = 'mostratec';
-
-//****** mostra.poa.ifrs.edu.br *********
-//$db['default']['username'] = 'mostratec';
-//$db['default']['password'] = 'nvaasdmtdb';
-//$db['default']['database'] = 'mostratec';
-
-//residuoseletronicos.poa.ifrs.edu.br???
-//$db['default']['username'] = '';
-//$db['default']['password'] = '';
-//$db['default']['database'] = '';
+$db['default']['hostname'] = ''; 
+$db['default']['username'] = '';
+$db['default']['password'] = '';
+$db['default']['database'] = '';
 
 $db['default']['dbdriver'] = 'mysql'; //mysql
 $db['default']['dbprefix'] = '';
